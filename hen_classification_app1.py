@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # Load your trained model (make sure the model file is in the same directory)
-model = tf.keras.models.load_model('C:/path/to/hen_classification_model1.h5')
+model = tf.keras.models.load_model('C:/path/to/quantized_hen_classification_model.tflite')
 
 # Function to preprocess the frame (resize and normalize)
 def preprocess_frame(frame):
